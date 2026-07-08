@@ -1459,7 +1459,7 @@ function buildKungfuList() {
 const KUNGFU_LIST = buildKungfuList();
 const STAT_KEYS   = ['拳掌','棍枪','剑','刀','暗器','内功底蕴'];
 const BASE_VAL    = 5;
-const TOTAL_PTS   = 1000;
+const TOTAL_PTS   = 1200;
 
 const OPENING_CHOICES = [
   { id: 1, name: '全真教开局', detail: '你穿越到全真教的一名不受待见的小弟子身上，且看你如何逆袭', editable: false },
