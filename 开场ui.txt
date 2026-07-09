@@ -1676,8 +1676,8 @@ function renderStats() {
         </div>
         <div class="stat-val" id="val-${key}">${val}</div>
         <div class="stat-btns">
-          <button class="stat-btn" id="minus-${key}" onclick="adjustStat('${key}',-1)" aria-label="${key}减少">−</button>
-          <button class="stat-btn" id="plus-${key}"  onclick="adjustStat('${key}',+1)"  aria-label="${key}增加">＋</button>
+          <button class="stat-btn" id="minus-${key}" onclick="adjustStat('${key}',-10)" aria-label="${key}减少">−</button>
+          <button class="stat-btn" id="plus-${key}"  onclick="adjustStat('${key}',+10)"  aria-label="${key}增加">＋</button>
         </div>
       </div>`;
   }).join('');
