@@ -3548,7 +3548,7 @@ function buildKungfuPanel(charKey, char) {
   const learned = char.领悟功法||[];
   const mainKf = char.主运内功||'';
   var _jxExtra=0;try{_jxExtra=_wdExtraJxSlots();}catch(e){}
-  const KUNGFU_LIMITS = { 绝学: 3+_jxExtra, 普通: 4, 内功: 3, 轻功: 3 };
+  const KUNGFU_LIMITS = { 绝学: 10+_jxExtra, 普通: 10, 内功: 10, 轻功: 10 };
   const catCount = { 绝学: 0, 普通: 0, 内功: 0, 轻功: 0 };
   learned.forEach(n => { const c = window.parent?.WX_GET_KUNGFU?.(n)?.类别 || '普通'; catCount[c] = (catCount[c]||0) + 1; });
 
