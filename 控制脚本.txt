@@ -5550,8 +5550,8 @@ window.parent.WX_LEARN_KUNGFU = async ({ bookName, charKey }) => {
         }
       }
     } catch(e) {}
-    const KUNGFU_LIMITS = { 绝学: 3 + _wdExtraJx, 普通: 4, 内功: 3, 轻功: 3 };
-    const KUNGFU_TOTAL_LIMIT = 13 + _wdExtraJx;
+    const KUNGFU_LIMITS = { 绝学: 10 + _wdExtraJx, 普通: 10, 内功: 10, 轻功: 10 };
+    const KUNGFU_TOTAL_LIMIT = 40 + _wdExtraJx;
     const learnPath = charKey === 'player'
       ? 'stat_data.玩家.领悟功法'
       : `stat_data.我方队友.${charKey}.领悟功法`;
