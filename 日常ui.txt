@@ -3560,8 +3560,8 @@ function buildKungfuPanel(charKey, char) {
       const cnt = catCount[cat]||0;
       return `<span class="wx-kungfu-limit-item ${cnt>=lim?'full':''}">${cat} ${cnt}/${lim}</span>`;
     }).join('')}
-    ${isPlayer?`<span class="wx-kungfu-limit-item">${'自创'} ${customCount}/3</span>`:''}
-    <span class="wx-kungfu-limit-item">共 ${learned.length}/13</span>
+    ${isPlayer?`<span class="wx-kungfu-limit-item">${'自创'} ${customCount}/10</span>`:''}
+    <span class="wx-kungfu-limit-item">共 ${learned.length}/50</span>
   </div>`;
 
   const hasNeigong = learned.some(n => (window.parent?.WX_GET_KUNGFU?.(n)?.类别) === '内功');
