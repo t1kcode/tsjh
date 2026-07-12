@@ -2485,7 +2485,7 @@ async function doXinmoChallenge() {
       },
       属性: { ...(p.属性 || {}) },
       基本功: { ...(p.基本功加点?.基本功 || {}) },
-      领悟功法: [...(p.领悟功法 || [])],
+      领悟功法: [...([])],
       主运内功: p.主运内功 || '',
     };
     await Mvu.replaceMvuData(data, { type: 'message', message_id: aiMsgId });
